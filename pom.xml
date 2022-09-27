@@ -18,6 +18,21 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+<distributionManagement>
+	<repository>
+		<id>nexus-release</id>
+		<name>releases</name>
+		<url>http://192.168.56.101:8081/repository/maven-releases/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>nexus-snapshot</id>
+		<name>snapshots</name>
+		<url>http://192.168.56.101:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+
+</distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
