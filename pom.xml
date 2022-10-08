@@ -7,7 +7,7 @@
 
 	<groupId>Demo</groupId>
 	<artifactId>Selenium_pageobject</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<name>Selenium_pageobject</name>
 	<!-- FIXME change it to the project's website -->
